@@ -1,0 +1,1 @@
+{"version":3,"sources":["../js/es6.js"],"names":["a","console","log"],"mappings":";;AAAA,IAAIA,IAAE,CAAN;AACA,IAAG,IAAH,EAAQ;AACJ,QAAIA,KAAE,CAAN;AACHC,YAAQC,GAAR,CAAY,GAAZ,EAAgBF,EAAhB;AACA;;AAEDC,QAAQC,GAAR,CAAY,GAAZ,EAAgBF,CAAhB","file":"es6-compiled.js","sourcesContent":["let a=5;\r\nif(true){\r\n    let a=6;\r\n\tconsole.log('a',a);\r\n}\r\n\r\nconsole.log('a',a);"]}

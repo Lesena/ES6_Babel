@@ -1,0 +1,1 @@
+{"version":3,"sources":["../js/file1.js"],"names":["console","log"],"mappings":";;AAAAA,QAAQC,GAAR,CAAa,MAAb;AACA","file":"file1-compiled.js","sourcesContent":["console.log( 'Lena' );\r\n/*(function() {\r\n\tvar tree = 'oak';\r\n \r\n\tvar funcOne = function () {};\r\n \r\n\tconsole.log( tree );\r\n})();*/\t\t"]}
