@@ -1,0 +1,1 @@
+.modal,.wrapper{position:absolute}$font-body: 18px Arial,sans-serif; $color-grey: #c9e4f9; $color-black: #000; $color-white: #fff; *{font:$font-body;padding:0;margin:0}body{color:$color-black}ol{font-size:13px}.wrapper{width:100%}.modal{min-width:100%;min-height:100%;background-color:$color-grey}#exit{cursor:pointer}

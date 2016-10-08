@@ -1,0 +1,73 @@
+* {
+  font: 18px Arial, sans-serif;
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: #000; }
+
+ol {
+  font-size: 13px; }
+
+.wrapper {
+  position: absolute;
+  width: 100%; }
+  .wrapper .center {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 20px; }
+    .wrapper .center h1 {
+      font-size: 24px;
+      padding-bottom: 34px;
+      text-align: center; }
+    .wrapper .center legend {
+      padding-top: 11px;
+      padding-bottom: 15px; }
+    .wrapper .center label {
+      font-size: 16px;
+      display: block;
+      width: 200px;
+      padding-bottom: 6px;
+      padding-left: 26px;
+      cursor: pointer; }
+      .wrapper .center label input[type='checkbox'] {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin-right: 3px;
+        cursor: pointer;
+        vertical-align: top;
+        background-color: #c9e4f9; }
+    .wrapper .center button {
+      display: block;
+      width: 330px;
+      height: 52px;
+      margin: 50px auto;
+      cursor: pointer;
+      border: 2px solid #000;
+      background-color: #c9e4f9; }
+
+.modal {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #c9e4f9; }
+  .modal-inner {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: #fff; }
+    .modal-inner a {
+      position: absolute;
+      bottom: 15px;
+      left: 44%;
+      width: 12%; }
+
+#exit {
+  cursor: pointer; }
+
+/*# sourceMappingURL=stylees6main.css.map */
