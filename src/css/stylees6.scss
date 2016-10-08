@@ -1,0 +1,104 @@
+$font-body:     18px Arial,sans-serif;
+$color-grey:    #c9e4f9;
+$color-black:   #000;
+$color-white:   #fff;
+
+
+* {
+  font: $font-body;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: $color-black;
+}
+
+ol {
+  font-size: 13px;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+
+  .center {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    h1 {
+      font-size: 24px;
+      padding-bottom: 34px;
+      text-align: center;
+    }
+
+    legend {
+      padding-top: 11px;
+      padding-bottom: 15px;
+    }
+
+    label {
+      font-size: 16px;
+      display: block;
+      width: 200px;
+      padding-bottom: 6px;
+      padding-left: 26px;
+      cursor: pointer;
+
+      input[type='checkbox'] {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin-right: 3px;
+        cursor: pointer;
+        vertical-align: top;
+        background-color: $color-grey;
+      }
+
+    }
+
+    button {
+      display: block;
+      width: 330px;
+      height: 52px;
+      margin: 50px auto;
+      cursor: pointer;
+      border: 2px solid $color-black;
+      background-color: $color-grey;
+    }
+
+  }
+
+}
+
+.modal {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: $color-grey;
+
+  &-inner {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    border: 2px solid $color-black;
+    background-color: $color-white;
+
+    & a {
+      position: absolute;
+      bottom: 15px;
+      left: 44%;
+      width: 12%;
+    }
+
+  }
+
+}
+
+#exit {
+  cursor: pointer;
+}
